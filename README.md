@@ -15,11 +15,11 @@ If u do need it, do use & enjoy.
 ```
   UIViewController *controller = [[UIViewController alloc]init];
   controller.view.backgroundColor = [UIColor orangeColor];
-  controller.pageBarItem = [[HHPageBarItem alloc]initWithTitle:@"全部" image:nil selectedImage:nil];
+  controller.pageBarItem = [[HHPageBarItem alloc]initWithTitle:@"HERE" image:nil selectedImage:nil];
   
   UIViewController *blurController = [UIViewController new];
   blurController.view.backgroundColor = [UIColor blueColor];
-  blurController.pageBarItem = [[HHPageBarItem alloc]initWithTitle:@"每日一卦" image:nil selectedImage:nil];
+  blurController.pageBarItem = [[HHPageBarItem alloc]initWithTitle:@"WE GO" image:nil selectedImage:nil];
   
   [self setViewControllers:@[ controller, blurController]];
   
